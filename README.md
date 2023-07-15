@@ -57,8 +57,8 @@ data
             bounding_box_train/
             ......
 ```
-
-5. Prepare pretrained model if you don't have，download the corresponding model parameters from the series website, save them in the desired location, and change the location of the pre-trained model '_C.MODEL.PRETRAIN_PATH' in '/config/defaults.py'
+### 2.3 Prepare pretrained model
+Download the corresponding model parameters from the series website, save them in the desired location, and change the location of the pre-trained model '_C.MODEL.PRETRAIN_PATH' in '/config/defaults.py'
 
 ```
 model_urls = {
