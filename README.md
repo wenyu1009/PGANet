@@ -5,9 +5,9 @@ Pixel-wise Graph Attention Networks for Person Re-identification. ACM MM2021, Po
 The codes are expanded on [[Strong baseline]](https://github.com/michuanhaohao/reid-strong-baseline).
 
 
-## 1 Pipiline
+## 1 Pipeline
 
-This article proposes a feature extraction module based on pixel level graph attention, which treats image pixels as nodes on the graph and pixels surrounding them as neighbors. The graph attention mechanism is used to update image features. We insert this module into each layer in ResNet to enhance the features extracted by ResNet. The module details are as follows:
+This article proposes a feature extraction module based on pixel-wise graph attention, which treats image pixels as nodes on the graph and pixels surrounding them as neighbors. The graph attention mechanism is used to update image features. We insert this module into each layer in ResNet to enhance the components extracted by ResNet. The module details are as follows:
 ![PGA](./imgs/PGA.png)
 
 The following figure is the architecture diagram of the model:
@@ -20,13 +20,13 @@ The following figure is the architecture diagram of the model:
 
 
 ### 2.1 Environment
-pytorch, pytorch_ignite==0.1.2, yacs
+PyTorch, pytorch_ignite==0.1.2, yacs, and soon.
 
 ### 2.2 Dataset
 
 
 
-Create a directory to store reid datasets under this repo or outside this repo. Remember to set your path to the root of the dataset in `config/defaults.py` for all training and testing or set in every single config file in `configs/` or set in every single command.
+Create a directory to store reid datasets under this repo or outside this repo. Remember to set your path to the root of the dataset in `config/defaults.py` for all training and testing or set it in every config file in `configs/` or in every single command.
 
 You can create a directory to store reid datasets under this repo via
 
