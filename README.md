@@ -58,7 +58,7 @@ data
             ......
 ```
 ### 2.3 Prepare pretrained model
-Download the corresponding model parameters from the series website, save them in the desired location, and change the location of the pre-trained model '_C.MODEL.PRETRAIN_PATH' in '/config/defaults.py'
+Download the corresponding model parameters from the series website, save them in the desired location, and change the location of the pre-trained model '_C.MODEL.PRETRAIN_PATH' in '/config/defaults.py' and 'configs/*.yml'.
 
 ```
 model_urls = {
@@ -70,7 +70,7 @@ model_urls = {
 
 ## 3 Train
 
-You can run these commands in  `.sh ` files for training different datasets of differernt loss.  You can also directly run code `sh *.sh` to run our demo after your custom modification.
+You can run these commands in  `.sh ` files for training different datasets of different loss.  You can also directly run code `sh *.sh` to run our demo after your custom modification.
 
 
 Experiment-all_tricks-tri_center-market-pga.sh：
